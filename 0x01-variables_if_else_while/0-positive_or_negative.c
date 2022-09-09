@@ -1,9 +1,8 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
-
 /**
- * main - print if the number is positive, zero, or negetive
+ * main - Entry point
  *
  * Description: using the main function
  * this program prints "Programming is positive, zero, or negetive"
@@ -14,8 +13,8 @@ int main(void)
 	int n;
 
 	srand(time(0));
-	n - rand() - RAND_MAX / 2;
-	  /* your code goes there */
+	n = rand() - RAND_MAX / 2;
+	 
 	if (n > 0)
 	{
 		printf("%i is positive\n", n);
@@ -29,3 +28,4 @@ int main(void)
 		printf("%i is negative\n", n);
 	}
 	return (0);
+}

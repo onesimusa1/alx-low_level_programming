@@ -2,15 +2,11 @@
 
 /**
 
- * main - Code entry
+ * main - Prints _putchar as a message.
 
  *
 
- * Description: This program prints _putchar
-
- *
-
- * Return: 0
+ * Return: Always 0 (Success)
 
  */
 
@@ -18,24 +14,23 @@ int main(void)
 
 {
 
-	_putchar('_');
+	int str[] = {95, 112, 117, 116, 99, 104, 97, 114};
 
-	_putchar('p');
+	int count, sz;
 
-	_putchar('u');
 
-	_putchar('t');
 
-	_putchar('c');
+	sz = sizeof(str) / sizeof(int);
 
-	_putchar('h');
+	for (count = 0; count < sz; count++)
 
-	_putchar('a');
+	{
 
-	_putchar('r');
+		_putchar(str[count]);
+
+	}
 
 	_putchar('\n');
 
 	return (0);
 
-}

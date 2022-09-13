@@ -1,25 +1,41 @@
-#include <stdio.h>
+#include "main.h"
+
 /**
- * main - This program prints the phrase Hello, World
- * Return: Always 0 (Success)
+
+ * main - Code entry
+
+ *
+
+ * Description: This program prints _putchar
+
+ *
+
+ * Return: 0
+
  */
 
 int main(void)
 
 {
-	char ch[] = "_putchar";
 
-	int i;
+	_putchar('_');
 
-	for (i = 0; ch[i] != '\0'; i++)
+	_putchar('p');
 
-	{
+	_putchar('u');
 
-		_putchar(ch[i]);
+	_putchar('t');
 
-	}
+	_putchar('c');
+
+	_putchar('h');
+
+	_putchar('a');
+
+	_putchar('r');
 
 	_putchar('\n');
 
 	return (0);
+
 }

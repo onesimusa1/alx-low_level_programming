@@ -1,18 +1,38 @@
 #include "main.h"
-
 /**
- *  * print_alphabet - This function prints the alphabet in lowercase*
- *  * followed by a new line
+ *
+ *  * main - Code entry
+ *
+ *  *
+ *
+ *  * Description: This program prints _putchar
+ *
+ *  *
+ *
+ *  * Return: 0
+ *
  *  */
-void print_alphabet(void)
+
+int main(void)
+
 {
-		int ch;
+	_putchar('_');
 
-		for (ch = 'a'; ch <= 'z'; ch++)
-		{
-			_putchar(ch);	
-		}
+	_putchar('p');
 
-		_putchar('\n');
+	_putchar('u');
+
+	_putchar('t');
+
+	_putchar('c');
+
+	_putchar('h');
+
+	_putchar('a');
+
+	_putchar('r');
+
+	_putchar('\n');
+	return (0);
 
 }

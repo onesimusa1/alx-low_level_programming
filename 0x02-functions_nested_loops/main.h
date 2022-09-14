@@ -1,38 +1,36 @@
-0. _putchar                                                                                                         
+#ifndef HOLBERTON_H_INCLUDED                                                                                        
 
-1. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game             
+#define HOLBERTON_H_INCLUDED                                                                                        
 
-2. 10 x alphabet                                                                                                    
+                                                                                                                    
 
-3. islower                                                                                                          
+int _putchar(char);                                                                                                  
 
-4. isalpha                                                                                                          
+void print_alphabet(void);                                                                                          
 
-5. Sign                                                                                                             
+void print_alphabet_x10(void);                                                                                      
 
-6. There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you       
+int _islower(int c);                                                                                                
 
-7. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important                      
+int _isalpha(int c);                                                                                                
 
-8. I'm federal agent Jack Bauer, and today is the longest day of my life                                            
+int print_sign(int n);                                                                                              
 
-9. Learn your times table                                                                                           
+int _abs(int);                                                                                                      
 
-10. a + b                                                                                                           
+int print_last_digit(int);
 
-11. 98 Battery Street, the OG                                                                                       
+void jack_bauer(void);
 
-12. The World looks like a multiplication-table, or a mathematical equation, which, turn it how you will, balances i
+void times_tables(void);
 
-tself                                                                                                               
+int add(int a, int b);
 
-13. Nature made the natural numbers; All else is the work of women                                                  
+void print_to_98(int n);
 
-14. In computer class, the first assignment was to write a program to print the first 100 Fibonacci numbers. Instead
+void print_times_tables(int n);
 
-, I wrote a program that would steal passwords of students. My teacher gave me an A                                 
+void num(int r, int n);
 
-15. Even Liber Abbaci                                                                                               
 
-16. In computer class, the first assignment was to write a program to print the first 100 Fibonacci numbers. Instead
 

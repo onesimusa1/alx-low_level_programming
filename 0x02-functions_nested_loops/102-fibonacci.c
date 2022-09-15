@@ -1,4 +1,4 @@
-nclude <stdio.h>
+#include <stdio.h>
 
 /**
  * main - Prints first 50 Fibonacci numbers, starting with 1 and 2,
@@ -8,7 +8,7 @@ nclude <stdio.h>
 int main(void)
 {
 	int count;
-	unsigned long fib1 = 0, fib2 = 1, sum
+	unsigned long fib1 = 0, fib2 = 1, sum;
 
 		for (count = 0; count < 50; count++)
 		{

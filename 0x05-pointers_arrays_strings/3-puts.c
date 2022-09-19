@@ -1,4 +1,4 @@
-#include "main .h"
+#include "main.h"
 
 /**
  * _puts -> this a function that puts

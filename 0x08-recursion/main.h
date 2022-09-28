@@ -20,3 +20,5 @@ int _sqrt(int n, int start);
 void check(char *s, int start, int end, int *flag);
 int wildcmp(char *s1, char *s2);
 
+#endif /*MAIN_H*/
+

@@ -149,3 +149,5 @@ char **strtow(char *str)
 		return (NULL);
 	}
 	return (m);
+}
+

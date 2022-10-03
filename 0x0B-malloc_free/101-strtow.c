@@ -108,3 +108,46 @@ int print_words(int *pos, char **m, char *str, int words)
 	*(m + b) = NULL;
 	return (0);
 }
+
+/**
+* strtow - function that returns a pointer to an array of strings (words)
+* Return: pointer to the array
+* @str: pointer to the array
+*/
+
+char **strtow(char *str)
+{
+	int words;
+	char **m = NULL;
+	int *pos = NULL;
+
+	if (str == NULL || *str == 0)
+		return (NULL);
+	words = count_words(str);
+	if (words == 0)
+	{
+		return (NULL);
+	}
+	m = (char **) malloc((sizeof(char *) * (words + 1)));
+	if (m == NULL)
+	{
+		for (words = words - 1; words >= 0; words--)
+			free(*(m + words));
+		free(m);
+		return (NULL);
+	}
+	pos = (int *)malloc(sizeof(int) * words * 2);
+	if (pos == NULL)
+	{
+		free(m);
+		free(pos);
+		return (NULL);
+	}
+	look_pos(str, pos);
+	if (print_words(pos, m, str, words))
+	{
+		return (NULL);
+	}
+	return (m);
+}
+

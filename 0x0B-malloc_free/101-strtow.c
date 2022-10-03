@@ -150,4 +150,3 @@ char **strtow(char *str)
 	}
 	return (m);
 }
-

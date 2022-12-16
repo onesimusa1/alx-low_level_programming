@@ -1,7 +1,3 @@
 #!/bin/bash
 gcc -fPIC -c *.c
 gcc -shared -o liball.so *.o
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
